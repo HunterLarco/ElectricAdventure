@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { SafeAreaView, ScrollView, StatusBar, View } from 'react-native';
 
+import Router from './Router.js';
+
 class App extends Component {
   render() {
     return (
@@ -8,7 +10,7 @@ class App extends Component {
         <StatusBar barStyle="dark-content" />
         <SafeAreaView>
           <ScrollView contentInsetAdjustmentBehavior="automatic">
-            <View></View>
+            <Router />
           </ScrollView>
         </SafeAreaView>
       </>
