@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import { NativeRouter, Route } from 'react-router-native';
+import { Route } from 'react-router-native';
+import { View } from 'react-native';
 
-import Home from './features/Home';
+import CampInfo from './features/CampInfo';
+import Todos from './features/Todos';
 
 class Router extends Component {
   render() {
     return (
-      <NativeRouter style={this.props.style}>
-        <Route exact path="/" component={Home} />
-      </NativeRouter>
+      <View style={this.props.style}>
+        <Route path="/todos" component={Todos} />
+        <Route path="/campinfo" component={CampInfo} />
+      </View>
     );
   }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-native';
 import { View } from 'react-native';
 
 import TabBar from '../components/TabBar';
@@ -9,8 +10,14 @@ class TabBarFeature extends Component {
   render() {
     return (
       <TabBar style={this.props.style}>
-        <TabBarItem icon="list-alt" label="Todos" />
-        <TabBarItem icon="campground" label="Camp Info" />
+        <Link to="/todos">
+          <TabBarItem icon="list-alt" label="Todos" />
+        </Link>
+
+        <Link to="/campinfo">
+          <TabBarItem icon="campground" label="Camp Info" />
+        </Link>
+
         <TabBarItem icon="comments" label="Messages" />
         <TabBarItem icon="user" label="Profile" />
       </TabBar>

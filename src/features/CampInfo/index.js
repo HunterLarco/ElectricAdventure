@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 
-class Home extends Component {
+class CampInfo extends Component {
   render() {
     return (
       <>
-        <Text>Test</Text>
+        <Text style={{ color: '#FFF' }}>CampInfo</Text>
       </>
     );
   }
 }
 
-export default Home;
+export default CampInfo;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import { NativeRouter } from 'react-router-native';
 import { SafeAreaView, StatusBar, View } from 'react-native';
 
 import Router from './Router';
@@ -13,10 +14,13 @@ class App extends Component {
       <>
         <StatusBar barStyle="dark-content" />
         <styles.AppContainer>
-          <styles.RouterContainer>
-            <Router />
-          </styles.RouterContainer>
-          <styles.TabBar />
+          <NativeRouter>
+            <styles.RouterContainer>
+              <Router />
+            </styles.RouterContainer>
+
+            <styles.TabBar />
+          </NativeRouter>
         </styles.AppContainer>
         <styles.AppFooter />
       </>
