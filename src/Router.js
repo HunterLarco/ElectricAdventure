@@ -6,7 +6,7 @@ import Home from './features/Home';
 class Router extends Component {
   render() {
     return (
-      <NativeRouter>
+      <NativeRouter style={this.props.style}>
         <Route exact path="/" component={Home} />
       </NativeRouter>
     );
