@@ -19,10 +19,7 @@ class TabBarItem extends Component {
       this.props.route
     );
 
-    const labelStyles = {};
-    if (selected) {
-      labelStyles.fontWeight = '700';
-    }
+    const color = selected ? Theme.Colors.SoftWhite : Theme.Colors.DimSoftWhite;
 
     return (
       <TouchableWithoutFeedback
@@ -35,9 +32,9 @@ class TabBarItem extends Component {
             light={!selected}
             solid={selected}
             size={19}
-            color={Theme.Colors.SoftWhite}
+            color={color}
           />
-          <styles.Label style={labelStyles}>{this.props.label}</styles.Label>
+          <styles.Label style={{ color }}>{this.props.label}</styles.Label>
         </styles.Host>
       </TouchableWithoutFeedback>
     );
@@ -60,9 +57,8 @@ const styles = {
   Icon: styled(FontAwesome5)``,
 
   Label: styled(Text)`
-    color: ${Theme.Colors.SoftWhite};
     font-size: ${Theme.Fonts.NavBarItem.Size};
-    margin-top: 10px;
+    margin-top: 6px;
   `,
 };
 

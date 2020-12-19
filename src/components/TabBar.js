@@ -20,7 +20,7 @@ const styles = {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px 0;
   `,
 };
 
