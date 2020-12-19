@@ -1,4 +1,4 @@
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5Pro';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import styled from 'styled-components';
@@ -32,6 +32,8 @@ class TabBarItem extends Component {
         <styles.Host style={this.props.style}>
           <styles.Icon
             name={this.props.icon}
+            light={!selected}
+            solid={selected}
             size={19}
             color={Theme.Colors.SoftWhite}
           />
