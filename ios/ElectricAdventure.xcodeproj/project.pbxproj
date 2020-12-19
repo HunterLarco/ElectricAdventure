@@ -11,15 +11,19 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		14E1DBAC6FA48FAD31F467E1 /* libPods-ElectricAdventure-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB73A98B6B06D61C7636902A /* libPods-ElectricAdventure-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ElectricAdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ElectricAdventureTests.m */; };
-		35A775B38B7193975B988446 /* libPods-ElectricAdventure-ElectricAdventureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7690C2ED62C39E6AFCC81587 /* libPods-ElectricAdventure-ElectricAdventureTests.a */; };
-		45DE3109D98D54F3CE1E258B /* libPods-ElectricAdventure-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4A8337A69AE4E31864EC21 /* libPods-ElectricAdventure-tvOS.a */; };
+		62CEA9E8E0B7072D21F193FF /* libPods-ElectricAdventure-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA29B6716D73EE0D684979 /* libPods-ElectricAdventure-tvOSTests.a */; };
+		75E6D72434ECFD42822CA895 /* libPods-ElectricAdventure-ElectricAdventureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAC8F15FAD587A7490E4B57 /* libPods-ElectricAdventure-ElectricAdventureTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AAD9F03470D5931550D11511 /* libPods-ElectricAdventure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D34CD22246AC61BE6AB790 /* libPods-ElectricAdventure.a */; };
+		89685F0694A3CCB858CF271B /* libPods-ElectricAdventure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D51429B8EEDB188B801C1B /* libPods-ElectricAdventure.a */; };
+		C7FD154777DE18AFE3BE552F /* libPods-ElectricAdventure-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EDC4631510570F0B11A032 /* libPods-ElectricAdventure-tvOS.a */; };
+		F104C209258EB7B0004B5A78 /* FontAwesome5_Pro_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F104C205258EB7B0004B5A78 /* FontAwesome5_Pro_Brands.ttf */; };
+		F104C20A258EB7B0004B5A78 /* FontAwesome5_Pro_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F104C206258EB7B0004B5A78 /* FontAwesome5_Pro_Regular.ttf */; };
+		F104C20B258EB7B0004B5A78 /* FontAwesome5_Pro_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F104C207258EB7B0004B5A78 /* FontAwesome5_Pro_Light.ttf */; };
+		F104C20C258EB7B0004B5A78 /* FontAwesome5_Pro_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F104C208258EB7B0004B5A78 /* FontAwesome5_Pro_Solid.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,23 +54,27 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ElectricAdventure/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ElectricAdventure/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ElectricAdventure/main.m; sourceTree = "<group>"; };
-		20D34CD22246AC61BE6AB790 /* libPods-ElectricAdventure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricAdventure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7F9DF2584A29E1FBCC482B /* Pods-ElectricAdventure-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-tvOSTests/Pods-ElectricAdventure-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ElectricAdventure-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ElectricAdventure-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ElectricAdventure-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ElectricAdventure-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65A163FC6E86C4A4463A2672 /* Pods-ElectricAdventure-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-tvOSTests/Pods-ElectricAdventure-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6CD092B2AB02ED3779EB4D36 /* Pods-ElectricAdventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure.debug.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure/Pods-ElectricAdventure.debug.xcconfig"; sourceTree = "<group>"; };
-		7690C2ED62C39E6AFCC81587 /* libPods-ElectricAdventure-ElectricAdventureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricAdventure-ElectricAdventureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B2BFC1FDF12515ED86DBBB1 /* Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-ElectricAdventureTests/Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7C5836CE8E4D467D5D0F6A63 /* Pods-ElectricAdventure-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-tvOSTests/Pods-ElectricAdventure-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		47AA29B6716D73EE0D684979 /* libPods-ElectricAdventure-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricAdventure-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D51429B8EEDB188B801C1B /* libPods-ElectricAdventure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricAdventure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC564688857BB076D9E614F /* Pods-ElectricAdventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure.debug.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure/Pods-ElectricAdventure.debug.xcconfig"; sourceTree = "<group>"; };
+		700DEC2211ED3FB51331B527 /* Pods-ElectricAdventure-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-tvOSTests/Pods-ElectricAdventure-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ElectricAdventure/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C17F64BD7435A86DB94D4F36 /* Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-ElectricAdventureTests/Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig"; sourceTree = "<group>"; };
-		C3A6F5889D1B688247D2345A /* Pods-ElectricAdventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure.release.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure/Pods-ElectricAdventure.release.xcconfig"; sourceTree = "<group>"; };
-		CF4A8337A69AE4E31864EC21 /* libPods-ElectricAdventure-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricAdventure-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D13D4CC7322EC8A39F8CA2F5 /* Pods-ElectricAdventure-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-tvOS/Pods-ElectricAdventure-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		860368BC4E2B296FB0D6932F /* Pods-ElectricAdventure-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-tvOS/Pods-ElectricAdventure-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A1EDC4631510570F0B11A032 /* libPods-ElectricAdventure-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricAdventure-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EA77CC615B5AD34D7B8EF5 /* Pods-ElectricAdventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure.release.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure/Pods-ElectricAdventure.release.xcconfig"; sourceTree = "<group>"; };
+		C4A6F0FF9FF50ABD4A198326 /* Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-ElectricAdventureTests/Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDCD9D9934A5D99DEB462F1 /* Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-ElectricAdventureTests/Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEAC8F15FAD587A7490E4B57 /* libPods-ElectricAdventure-ElectricAdventureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricAdventure-ElectricAdventureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F2E85C14032FE51AF4FECE05 /* Pods-ElectricAdventure-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-tvOS/Pods-ElectricAdventure-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		FB73A98B6B06D61C7636902A /* libPods-ElectricAdventure-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricAdventure-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F104C205258EB7B0004B5A78 /* FontAwesome5_Pro_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Pro_Brands.ttf; path = ../assets/fonts/FontAwesome5_Pro_Brands.ttf; sourceTree = "<group>"; };
+		F104C206258EB7B0004B5A78 /* FontAwesome5_Pro_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Pro_Regular.ttf; path = ../assets/fonts/FontAwesome5_Pro_Regular.ttf; sourceTree = "<group>"; };
+		F104C207258EB7B0004B5A78 /* FontAwesome5_Pro_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Pro_Light.ttf; path = ../assets/fonts/FontAwesome5_Pro_Light.ttf; sourceTree = "<group>"; };
+		F104C208258EB7B0004B5A78 /* FontAwesome5_Pro_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Pro_Solid.ttf; path = ../assets/fonts/FontAwesome5_Pro_Solid.ttf; sourceTree = "<group>"; };
+		F8881F2A8385E338E5B7435D /* Pods-ElectricAdventure-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricAdventure-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ElectricAdventure-tvOS/Pods-ElectricAdventure-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A775B38B7193975B988446 /* libPods-ElectricAdventure-ElectricAdventureTests.a in Frameworks */,
+				75E6D72434ECFD42822CA895 /* libPods-ElectricAdventure-ElectricAdventureTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAD9F03470D5931550D11511 /* libPods-ElectricAdventure.a in Frameworks */,
+				89685F0694A3CCB858CF271B /* libPods-ElectricAdventure.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DE3109D98D54F3CE1E258B /* libPods-ElectricAdventure-tvOS.a in Frameworks */,
+				C7FD154777DE18AFE3BE552F /* libPods-ElectricAdventure-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E1DBAC6FA48FAD31F467E1 /* libPods-ElectricAdventure-tvOSTests.a in Frameworks */,
+				62CEA9E8E0B7072D21F193FF /* libPods-ElectricAdventure-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,28 +149,23 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				20D34CD22246AC61BE6AB790 /* libPods-ElectricAdventure.a */,
-				7690C2ED62C39E6AFCC81587 /* libPods-ElectricAdventure-ElectricAdventureTests.a */,
-				CF4A8337A69AE4E31864EC21 /* libPods-ElectricAdventure-tvOS.a */,
-				FB73A98B6B06D61C7636902A /* libPods-ElectricAdventure-tvOSTests.a */,
+				47D51429B8EEDB188B801C1B /* libPods-ElectricAdventure.a */,
+				DEAC8F15FAD587A7490E4B57 /* libPods-ElectricAdventure-ElectricAdventureTests.a */,
+				A1EDC4631510570F0B11A032 /* libPods-ElectricAdventure-tvOS.a */,
+				47AA29B6716D73EE0D684979 /* libPods-ElectricAdventure-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7156AF0CAFCB638C12E61C20 /* Pods */ = {
+		759E78EEBF874DCB80026D07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6CD092B2AB02ED3779EB4D36 /* Pods-ElectricAdventure.debug.xcconfig */,
-				C3A6F5889D1B688247D2345A /* Pods-ElectricAdventure.release.xcconfig */,
-				7B2BFC1FDF12515ED86DBBB1 /* Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig */,
-				C17F64BD7435A86DB94D4F36 /* Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig */,
-				D13D4CC7322EC8A39F8CA2F5 /* Pods-ElectricAdventure-tvOS.debug.xcconfig */,
-				F2E85C14032FE51AF4FECE05 /* Pods-ElectricAdventure-tvOS.release.xcconfig */,
-				65A163FC6E86C4A4463A2672 /* Pods-ElectricAdventure-tvOSTests.debug.xcconfig */,
-				7C5836CE8E4D467D5D0F6A63 /* Pods-ElectricAdventure-tvOSTests.release.xcconfig */,
+				F104C205258EB7B0004B5A78 /* FontAwesome5_Pro_Brands.ttf */,
+				F104C207258EB7B0004B5A78 /* FontAwesome5_Pro_Light.ttf */,
+				F104C206258EB7B0004B5A78 /* FontAwesome5_Pro_Regular.ttf */,
+				F104C208258EB7B0004B5A78 /* FontAwesome5_Pro_Solid.ttf */,
 			);
-			name = Pods;
-			path = Pods;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +183,8 @@
 				00E356EF1AD99517003FC87E /* ElectricAdventureTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				7156AF0CAFCB638C12E61C20 /* Pods */,
+				F6A1BF6B95AC199CAF503901 /* Pods */,
+				759E78EEBF874DCB80026D07 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +202,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F6A1BF6B95AC199CAF503901 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AC564688857BB076D9E614F /* Pods-ElectricAdventure.debug.xcconfig */,
+				C3EA77CC615B5AD34D7B8EF5 /* Pods-ElectricAdventure.release.xcconfig */,
+				C4A6F0FF9FF50ABD4A198326 /* Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig */,
+				CEDCD9D9934A5D99DEB462F1 /* Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig */,
+				860368BC4E2B296FB0D6932F /* Pods-ElectricAdventure-tvOS.debug.xcconfig */,
+				F8881F2A8385E338E5B7435D /* Pods-ElectricAdventure-tvOS.release.xcconfig */,
+				1A7F9DF2584A29E1FBCC482B /* Pods-ElectricAdventure-tvOSTests.debug.xcconfig */,
+				700DEC2211ED3FB51331B527 /* Pods-ElectricAdventure-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,11 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ElectricAdventureTests" */;
 			buildPhases = (
-				32984F6DA57AC28EC752A0AD /* [CP] Check Pods Manifest.lock */,
+				5594A7FABD8FC3A15DAFB085 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C7F51382247B35B70DE93FC4 /* [CP] Copy Pods Resources */,
+				3ADF7A1605E844259ECF1A1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +244,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ElectricAdventure" */;
 			buildPhases = (
-				2F16096298808838FD8DF8BF /* [CP] Check Pods Manifest.lock */,
+				40E5A2B8CAA65D8738D9EB6E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				2AF34A43D59E1D8BCB50B44B /* [CP] Copy Pods Resources */,
+				0CD930DCDEE5486E04E7E70B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ElectricAdventure-tvOS" */;
 			buildPhases = (
-				3BD1553A7B406BDDE871DB4B /* [CP] Check Pods Manifest.lock */,
+				60EA466EA527DE02BD12D245 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ElectricAdventure-tvOSTests" */;
 			buildPhases = (
-				45C11E5FD8C5B663CD4065BB /* [CP] Check Pods Manifest.lock */,
+				A01C41558F15DDFA5FACB216 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -342,6 +361,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F104C20A258EB7B0004B5A78 /* FontAwesome5_Pro_Regular.ttf in Resources */,
+				F104C209258EB7B0004B5A78 /* FontAwesome5_Pro_Brands.ttf in Resources */,
+				F104C20B258EB7B0004B5A78 /* FontAwesome5_Pro_Light.ttf in Resources */,
+				F104C20C258EB7B0004B5A78 /* FontAwesome5_Pro_Solid.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +400,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2AF34A43D59E1D8BCB50B44B /* [CP] Copy Pods Resources */ = {
+		0CD930DCDEE5486E04E7E70B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,95 +464,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2F16096298808838FD8DF8BF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ElectricAdventure-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		32984F6DA57AC28EC752A0AD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ElectricAdventure-ElectricAdventureTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3BD1553A7B406BDDE871DB4B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ElectricAdventure-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		45C11E5FD8C5B663CD4065BB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ElectricAdventure-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C7F51382247B35B70DE93FC4 /* [CP] Copy Pods Resources */ = {
+		3ADF7A1605E844259ECF1A1A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -577,6 +512,94 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectricAdventure-ElectricAdventureTests/Pods-ElectricAdventure-ElectricAdventureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E5A2B8CAA65D8738D9EB6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectricAdventure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5594A7FABD8FC3A15DAFB085 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectricAdventure-ElectricAdventureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60EA466EA527DE02BD12D245 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectricAdventure-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01C41558F15DDFA5FACB216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectricAdventure-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -672,7 +695,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B2BFC1FDF12515ED86DBBB1 /* Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig */;
+			baseConfigurationReference = C4A6F0FF9FF50ABD4A198326 /* Pods-ElectricAdventure-ElectricAdventureTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -695,7 +718,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C17F64BD7435A86DB94D4F36 /* Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig */;
+			baseConfigurationReference = CEDCD9D9934A5D99DEB462F1 /* Pods-ElectricAdventure-ElectricAdventureTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -715,7 +738,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CD092B2AB02ED3779EB4D36 /* Pods-ElectricAdventure.debug.xcconfig */;
+			baseConfigurationReference = 5AC564688857BB076D9E614F /* Pods-ElectricAdventure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -738,7 +761,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A6F5889D1B688247D2345A /* Pods-ElectricAdventure.release.xcconfig */;
+			baseConfigurationReference = C3EA77CC615B5AD34D7B8EF5 /* Pods-ElectricAdventure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -759,7 +782,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D13D4CC7322EC8A39F8CA2F5 /* Pods-ElectricAdventure-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 860368BC4E2B296FB0D6932F /* Pods-ElectricAdventure-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -787,7 +810,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2E85C14032FE51AF4FECE05 /* Pods-ElectricAdventure-tvOS.release.xcconfig */;
+			baseConfigurationReference = F8881F2A8385E338E5B7435D /* Pods-ElectricAdventure-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -815,7 +838,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65A163FC6E86C4A4463A2672 /* Pods-ElectricAdventure-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 1A7F9DF2584A29E1FBCC482B /* Pods-ElectricAdventure-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -842,7 +865,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C5836CE8E4D467D5D0F6A63 /* Pods-ElectricAdventure-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 700DEC2211ED3FB51331B527 /* Pods-ElectricAdventure-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
