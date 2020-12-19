@@ -52,7 +52,9 @@ const styles = {
   Host: styled(View)`
     align-items: center;
     display: flex;
+    flex-basis: 0;
     flex-direction: column;
+    flex-grow: 1;
   `,
 
   Icon: styled(FontAwesome5)``,
