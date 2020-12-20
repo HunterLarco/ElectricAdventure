@@ -14,10 +14,6 @@ class Home extends Component {
             Make sure to RSVP before 4/18
           </styles.SummarySubText>
         </styles.Summary>
-
-        <styles.Todos>
-          <Text style={{ color: '#000' }}>Home</Text>
-        </styles.Todos>
       </styles.Host>
     );
   }
@@ -25,14 +21,12 @@ class Home extends Component {
 
 const styles = {
   Host: styled(View)`
-    background: ${Theme.Colors.NavBarSelected};
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   `,
 
   Summary: styled(View)`
-    flex-grow: 1;
     padding: 16px 14px;
   `,
 
@@ -44,14 +38,6 @@ const styles = {
   SummarySubText: styled(Text)`
     color: ${Theme.Fonts.HomeSummarySub.Color};
     font-size: ${Theme.Fonts.HomeSummarySub.Size};
-  `,
-
-  Todos: styled(View)`
-    background: ${Theme.Colors.Background};
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    flex-shrink: 0;
-    height: 60%;
   `,
 };
 

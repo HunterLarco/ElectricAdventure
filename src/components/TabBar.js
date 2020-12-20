@@ -15,8 +15,6 @@ class TabBar extends Component {
 const styles = {
   Host: styled(View)`
     background: ${Theme.Colors.NavBar};
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
