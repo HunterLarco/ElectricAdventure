@@ -37,12 +37,7 @@ class AppHeader extends Component {
             Make sure to reserve your spot before April 14
           </styles.FlavorText>
 
-          <styles.Icon
-            name="arrow-circle-right"
-            light
-            size={30}
-            color="#EAEAFF"
-          />
+          <styles.Icon name="chevron-right" light size={20} color="#EAEAFF" />
         </styles.CallToAction>
       </styles.Host>
     );
