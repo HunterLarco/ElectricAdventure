@@ -45,19 +45,18 @@ class AppHeader extends Component {
 }
 
 const styles = {
-  Host: styled(LinearGradient)`
-    padding: 16px 14px;
-  `,
+  Host: styled(LinearGradient)``,
 
   WelcomeText: styled(Text)`
     color: #ffffff;
     font-size: 40px;
-    margin-bottom: 8px;
+    padding: 16px 14px 0 14px;
   `,
 
   CallToAction: styled(TouchableOpacity)`
     align-items: center;
     flex-direction: row;
+    padding: 8px 14px 16px 14px;
   `,
 
   FlavorText: styled(Text)`
