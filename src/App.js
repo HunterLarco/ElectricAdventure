@@ -1,9 +1,9 @@
-import LinearGradient from 'react-native-linear-gradient';
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { NativeRouter } from 'react-router-native';
 import { SafeAreaView, StatusBar, View } from 'react-native';
 
+import AppHeader from './features/AppHeader';
 import Router from './Router';
 import TabBar from './features/TabBar';
 
@@ -11,43 +11,20 @@ import Theme from './Theme';
 
 class App extends Component {
   render() {
-    const gradient = {
-      start: {
-        color: '#B588F6',
-        point: {
-          x: 0,
-          y: 0,
-        },
-      },
-
-      end: {
-        color: '#9B6DFD',
-        point: {
-          x: 0,
-          y: 1,
-        },
-      },
-    };
-
     return (
       <>
         <StatusBar barStyle="dark-content" />
 
-        <styles.AppHeader style={{ backgroundColor: gradient.start.color }} />
+        <styles.BackgroundHeader style={{ backgroundColor: '#B588F6' }} />
+
+        <styles.AppHeader />
 
         <styles.AppContainer>
-          <styles.BackgroundGradient
-            colors={[gradient.start.color, gradient.end.color]}
-            start={gradient.start.point}
-            end={gradient.end.point}>
-            <NativeRouter>
-              <styles.Router />
-              <styles.TabBar />
-            </NativeRouter>
-          </styles.BackgroundGradient>
+          <NativeRouter>
+            <styles.Router />
+            <styles.TabBar />
+          </NativeRouter>
         </styles.AppContainer>
-
-        <styles.AppFooter style={{ backgroundColor: gradient.end.color }} />
       </>
     );
   }
@@ -61,12 +38,11 @@ const styles = {
     flex: 1;
   `,
 
-  BackgroundGradient: styled(LinearGradient)`
-    flex-direction: column;
-    flex: 1;
+  AppHeader: styled(AppHeader)`
+    flex-shrink: 0;
   `,
 
-  AppHeader: styled(SafeAreaView)`
+  BackgroundHeader: styled(SafeAreaView)`
     flex-grow: 0;
   `,
 
@@ -78,7 +54,7 @@ const styles = {
     flex-shrink: 0;
   `,
 
-  AppFooter: styled(SafeAreaView)`
+  BackgroundFooter: styled(SafeAreaView)`
     flex-grow: 0;
   `,
 };

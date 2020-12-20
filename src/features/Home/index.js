@@ -58,13 +58,6 @@ class Home extends Component {
 
     return (
       <styles.Host>
-        <styles.Summary>
-          <styles.SummaryText>Hi Hunter,</styles.SummaryText>
-          <styles.SummarySubText>
-            Make sure to reserve your spot before April 14
-          </styles.SummarySubText>
-        </styles.Summary>
-
         <styles.Tiles
           sections={sections}
           keyExtractor={(item) => item.title}
@@ -89,21 +82,6 @@ const styles = {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-  `,
-
-  Summary: styled(View)`
-    flex-shrink: 0;
-    padding: 16px 14px;
-  `,
-
-  SummaryText: styled(Text)`
-    color: ${Theme.Fonts.HomeSummary.Color};
-    font-size: ${Theme.Fonts.HomeSummary.Size};
-  `,
-
-  SummarySubText: styled(Text)`
-    color: ${Theme.Fonts.HomeSummarySub.Color};
-    font-size: ${Theme.Fonts.HomeSummarySub.Size};
   `,
 
   Tiles: styled(SectionList)`
