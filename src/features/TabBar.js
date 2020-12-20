@@ -9,7 +9,7 @@ class TabBarFeature extends Component {
   render() {
     return (
       <TabBar style={this.props.style}>
-        <TabBarItem icon="list-alt" label="Todos" route="/todos" />
+        <TabBarItem icon="home" label="Home" route="/home" />
         <TabBarItem icon="campground" label="Camp Info" route="/campinfo" />
         <TabBarItem icon="comments" label="Messages" route="/messages" />
         <TabBarItem icon="user" label="Profile" route="/user" />

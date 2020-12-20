@@ -15,10 +15,7 @@ class App extends Component {
         <StatusBar barStyle="dark-content" />
         <styles.AppContainer>
           <NativeRouter>
-            <styles.RouterContainer>
-              <Router />
-            </styles.RouterContainer>
-
+            <styles.Router />
             <styles.TabBar />
           </NativeRouter>
         </styles.AppContainer>
@@ -36,7 +33,7 @@ const styles = {
     flex: 1;
   `,
 
-  RouterContainer: styled(View)`
+  Router: styled(Router)`
     flex-grow: 1;
   `,
 

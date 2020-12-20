@@ -19,7 +19,9 @@ class TabBarItem extends Component {
       this.props.route
     );
 
-    const color = selected ? Theme.Colors.SoftWhite : Theme.Colors.DimSoftWhite;
+    const color = selected
+      ? Theme.Colors.NavBarSelected
+      : Theme.Colors.NavBarDefault;
 
     return (
       <TouchableWithoutFeedback
