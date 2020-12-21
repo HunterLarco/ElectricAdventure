@@ -14,15 +14,26 @@ class TaskSummary extends Component {
   render() {
     return (
       <styles.Host style={this.props.style}>
-        <styles.Title>{this.props.title}</styles.Title>
-        <styles.Details>{this.props.details}</styles.Details>
+        <styles.Content>
+          <styles.Title>{this.props.title}</styles.Title>
+          <styles.Details>{this.props.details}</styles.Details>
+        </styles.Content>
+
+        <styles.Icon name="chevron-right" light size={20} color="#000011" />
       </styles.Host>
     );
   }
 }
 
 const styles = {
-  Host: styled(View)``,
+  Host: styled(View)`
+    align-items: center;
+    flex-direction: row;
+  `,
+
+  Content: styled(View)`
+    flex: 1;
+  `,
 
   Title: styled(Text)`
     font-size: 18px;
@@ -32,6 +43,11 @@ const styles = {
   Details: styled(Text)`
     color: rgb(50, 50, 50);
     font-size: 16px;
+  `,
+
+  Icon: styled(FontAwesome5)`
+    flex-shrink: 0;
+    margin-left: 14px;
   `,
 };
 

@@ -1,13 +1,19 @@
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5Pro';
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { SectionList, Text, View } from 'react-native';
+import { Modal, SectionList, Text, TouchableOpacity, View } from 'react-native';
+
+import ReserveYourSpotTask from './Tasks/ReserveYourSpot';
 
 import TaskSummary from '../../components/TaskSummary';
 
 import Theme from '../../Theme';
 
 class Home extends Component {
+  state = {
+    selectedTask: null,
+  };
+
   render() {
     const sections = [
       {
@@ -17,6 +23,7 @@ class Home extends Component {
             title: 'Reserve your spot',
             details: 'Reserve your spot in the camp before April 14th',
             complete: false,
+            modal: ReserveYourSpotTask,
           },
           {
             title: 'Pay camp dues',
@@ -44,16 +51,6 @@ class Home extends Component {
           },
         ],
       },
-      {
-        title: 'Complete Tasks',
-        data: [
-          {
-            title: 'Reserve your spot',
-            details: 'Reserve your spot in the camp before April 14th',
-            complete: true,
-          },
-        ],
-      },
     ];
 
     return (
@@ -63,15 +60,25 @@ class Home extends Component {
           keyExtractor={(item) => item.title}
           ItemSeparatorComponent={() => <styles.Separator />}
           renderItem={({ item }) => (
-            <styles.Task
-              title={item.title}
-              details={item.details}
-              complete={item.complete}
-            />
+            <TouchableOpacity
+              onPress={() => this.setState({ selectedTask: item })}>
+              <styles.Task
+                title={item.title}
+                details={item.details}
+                complete={item.complete}
+              />
+            </TouchableOpacity>
           )}
           renderSectionHeader={({ section: { title } }) => (
             <styles.Title>{title}</styles.Title>
           )}></styles.Tiles>
+
+        <Modal
+          animationType="slide"
+          onRequestClose={() => this.setState({ selectedTask: null })}
+          visible={!!this.state.selectedTask}>
+          {this.state.selectedTask && <this.state.selectedTask.modal />}
+        </Modal>
       </styles.Host>
     );
   }
